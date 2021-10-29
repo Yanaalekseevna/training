@@ -1,0 +1,23 @@
+1635508924668	geckodriver	INFO	Listening on 127.0.0.1:61339
+1635509000474	geckodriver	INFO	Listening on 127.0.0.1:53261
+1635509002509	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "--remote-debugging-port" "53262" "-no-remote" "-profile" "C:\\Users\\YANA~1.DEG\\AppData\\Local\\Temp\\rust_mozprofilefPxrTC"
+1635509003327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Yana.Degteva\\AppData\\Local\\Temp\\rust_mozprofilefPxrTC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53262/devtools/browser/d95755de-a1d8-4fd1-a999-a68ac05736d2
+1635509006563	Marionette	INFO	Listening on port 53274
+1635509006874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635509010307	Marionette	INFO	Stopped listening on port 53274
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635509076975	geckodriver	INFO	Listening on 127.0.0.1:53449
+1635509078982	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "--remote-debugging-port" "53450" "-no-remote" "-profile" "C:\\Users\\YANA~1.DEG\\AppData\\Local\\Temp\\rust_mozprofilee7mZVh"
+1635509079489	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Yana.Degteva\\AppData\\Local\\Temp\\rust_mozprofilee7mZVh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53450/devtools/browser/b26ce2a9-744f-4223-82c2-e427a1f33b28
+1635509082295	Marionette	INFO	Listening on port 53460
+1635509082344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635509084610	Marionette	INFO	Stopped listening on port 53460
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[Parent 9452, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
