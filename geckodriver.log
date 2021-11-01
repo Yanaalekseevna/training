@@ -21,3 +21,24 @@ JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILU
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
 [Parent 9452, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1635769169443	geckodriver	INFO	Listening on 127.0.0.1:64870
+1635769171498	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "--remote-debugging-port" "64872" "-no-remote" "-profile" "C:\\Users\\YANA~1.DEG\\AppData\\Local\\Temp\\rust_mozprofileIawAw0"
+1635769172623	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Yana.Degteva\\AppData\\Local\\Temp\\rust_mozprofileIawAw0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64872/devtools/browser/b6b72c7a-4501-4629-bd37-548f1ee9950d
+1635769176008	Marionette	INFO	Listening on port 64877
+1635769176466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635769179024	Marionette	INFO	Stopped listening on port 64877
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635769179859	geckodriver	INFO	Listening on 127.0.0.1:64942
+1635769181885	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "--remote-debugging-port" "64943" "-no-remote" "-profile" "C:\\Users\\YANA~1.DEG\\AppData\\Local\\Temp\\rust_mozprofileDSdfM4"
+1635769182348	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Yana.Degteva\\AppData\\Local\\Temp\\rust_mozprofileDSdfM4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64943/devtools/browser/39957eb7-05f3-47d3-84ab-6b84e9f242af
+1635769185071	Marionette	INFO	Listening on port 64951
+1635769185138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635769187057	Marionette	INFO	Stopped listening on port 64951
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
